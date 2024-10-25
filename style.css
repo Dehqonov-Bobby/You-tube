@@ -1,3 +1,7 @@
+body{
+    height: 100dvh;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +10,7 @@
 .container {
 
     width: 100%;
-    height: 100vh;
+ 
 
     display: flex;
 
@@ -16,7 +20,7 @@
         display: flex;
         flex-direction: column;
         background-color: rgba(0, 0, 0, 0.829);
-        border: 1px solid gray;
+        border: 1px solid rgba(128, 128, 128, 0.418);
 
         .categories_row {
             display: flex;
@@ -54,6 +58,7 @@
 
         hr {
             margin: 20px 10px 20px 0px;
+            border: 1px solid rgba(128, 128, 128, 0.418);
         }
 
         h2 {
@@ -74,13 +79,14 @@
                 border-radius: 100%;
                 margin-top: 15px;
                 margin-left: 20px;
+                margin-right: 10px;
             }
 
             p {
                 color: white;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 font-size: 15px;
-                margin-left: 20px;
+                margin-left: 10px;
             }
         }
     }
@@ -88,7 +94,8 @@
     .ForYou {
         width: 80%;
         background-color: rgb(35, 34, 34);
-        border: 1px solid gray;
+        border: 1px solid rgba(128, 128, 128, 0.418);
+
 
         .Search {
             display: flex;
@@ -129,6 +136,7 @@
                 width: 30px;
                 height: 30px;
                 border-radius: 100%;
+
             }
         }
 
@@ -168,6 +176,7 @@
                 img {
                     width: 100%;
                     height: 200px;
+                    object-fit: cover;
                 }
 
                 .box_row {
